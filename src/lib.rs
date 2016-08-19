@@ -4,6 +4,33 @@
 // This file may not be copied, modified, or distributed except
 // according to those terms.
 
+//! A collection of useful natural language functions.
+//!
+//! # Usage
+//!
+//! This crate is [on crates.io](https://crates.io/crates/wordsworth) and can be
+//! used by adding `wordsworth` to the dependencies in your project's `Cargo.toml`.
+//!
+//! ```toml
+//! [dependencies]
+//! wordsworth = "0.1.*"
+//! ```
+//!
+//! and this to your crate root:
+//!
+//! ```rust
+//! extern crate wordsworth;
+//! ```
+//!
+//! # Example
+//!
+//! ```rust
+//! use wordsworth;
+//! assert_eq!(3, wordsworth::syllable_counter("lucozade"));
+//! assert_eq!(false, wordsworth::is_haiku("this is not\nnot\n a haiku"));
+//! ```
+//!
+
 /// Returns the syllable count for a word
 pub fn syllable_counter(word: &str) -> u32 {
     const DEBUG: bool = false; // must be a better way to do this

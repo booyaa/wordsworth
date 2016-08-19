@@ -21,4 +21,5 @@ extern crate wordsworth;
 ```rust
 use wordsworth;
 assert_eq!(3, syllable_counter("lucozade"));
+assert_eq!(false, is_haiku("this is not\nnot\n a haiku"));
 ```
