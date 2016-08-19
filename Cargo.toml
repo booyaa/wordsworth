@@ -1,0 +1,11 @@
+[package]
+name = "wordsworth"
+version = "0.1.0"
+authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
+description = "A collection of natural language analysis functions"
+repository = "https://github.com/booyaa/wordsworth"
+readme = "README.md"
+keywords = ["poetry","nl","haiku"]
+license = "Apache-2.0"
+
+[dependencies]
