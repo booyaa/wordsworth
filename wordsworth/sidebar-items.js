@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["is_haiku","Returns a bool value for a haiku candidate"],["syllable_counter","Returns the syllable count for a word"]]});
